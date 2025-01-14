@@ -1,0 +1,18 @@
+u should create classes like 
+
+.anim1{
+    opacity:0;
+    transform:tranlsateY(200px);
+}
+
+AND GIVE STYLE OF TRANSITION TO ELEMENT 
+and after anim1 will be removed it will come smooth 
+
+
+ScrollAnim(element_ref, remove_class, percentage_of_window_after_show, delay)
+
+removes all childs a class
+ScrollParent(element_ref_parent, remove_class, percentage_of_window_after_show, delay)
+
+removes all childs a class list 
+ScrollParentClassList(element_ref_parent, remove_class_list, percentage_of_window_after_show, delay)
